@@ -22,6 +22,7 @@ a file `ansible/.virtenv_version` containing the string `3.11.4`, the script wil
 a virtual environment called `projectx-ansible-venv` and put a `.python-version` file inside
 `/home/user/repos/projectx/ansible`, so every time you change into that directory, the virtual
 environment will be automatically activated.
+
 If there also is a `/home/user/repos/projectx/test/.virtenv_version` containing `3.10.12`,
 the script would install Python 3.10.12 and create the virtual environment `projectx-test-venv`.
 All in one go.
