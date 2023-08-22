@@ -1,10 +1,12 @@
 # pyenv_virtualenv_install_script
 Install script for pyenv + virtualenv that automatically creates virtual environments
+It's basically a bulk install for virtual Python environments.
 
 Only works on Debian based systems.
 Tested on Ubuntu 22.04.
 
-It's basically a bulk install for virtual Python environments.
+Feel free to adapt it for other platforms and send a pull request if you want.
+
 
 ## Usage
 Run the script from a directory and it install prerequisites for pyenv with virtualenv and 
