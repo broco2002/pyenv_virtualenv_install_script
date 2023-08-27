@@ -100,13 +100,6 @@ if ! command -v pyenv >>/dev/null; then
   curl -L https://pyenv.run | bash
 fi
 
-# VIRTUALENV
-# Install pyenv-virtualenv if not already installed (should be default)
-if ! command -v pyenv virtualenv-init >/dev/null; then
-  echo "Installing pyenv-virtualenv..."
-  git clone https://github.com/pyenv/pyenv-virtualenv.git $(pyenv root)/plugins/pyenv-virtualenv
-fi
-
 USERSHELL=$(echo "$SHELL" | rev | cut -d '/' -f 1 | rev)
 RC_FILE="$HOME/."$USERSHELL"rc"
 
